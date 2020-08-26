@@ -14,12 +14,18 @@ A social site where people can share uplifiting news stories. Built with a custo
 - MySQL
 - Handlebars.js
 - Sequelize
+- Jest 
 - express-session npm
 - bcrypt
 - idle-session-timeout
 
 ## Installation:
-Clone Repository. Install Node, Express, Handlebars, Sequelize, MySQL, bcrypt, express-session, idle-session-timeout. Invoke using server.js file.
+Clone Repository. Install Node, Express, Handlebars, Sequelize, MySQL, Jest, bcrypt, express-session, idle-session-timeout. Invoke using server.js file.
+
+## Tests
+- All tests written in _ tests _ file.
+- Make sure "jest" is in package.json scripts.
+- Invoke tests using npm run test.
 
 ## Link to Deployed Site:
 https://goodnewsonly.herokuapp.com/
