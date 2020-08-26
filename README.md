@@ -18,6 +18,7 @@ A social site where people can share uplifiting news stories. Built with a custo
 - express-session npm
 - bcrypt
 - idle-session-timeout
+- Heroku
 
 ## Installation:
 Clone Repository. Install Node, Express, Handlebars, Sequelize, MySQL, Jest, bcrypt, express-session, idle-session-timeout. Invoke using server.js file.
