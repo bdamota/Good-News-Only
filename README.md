@@ -1,1 +1,1 @@
-# Just-Tech-News
+# Good News Only. 
