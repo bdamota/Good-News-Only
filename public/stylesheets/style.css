@@ -83,12 +83,27 @@
   }
   
   header h1 {
-    font-size: 1em;
+    font-size: 3em;
+    color: #225ca3;
+  }
+
+  .home {
+    margin-right: 20%;
+    margin-left: -20%;
   }
   
+  .dash {
+    margin-right: 16%;
+    margin-left: -16%;
+  }
+
   main {
     flex: 1;
     padding: 2% 4%;
+  }
+
+  .login, .signup {
+    margin-top: 2%;;
   }
   
   .btn-no-style {
@@ -131,6 +146,7 @@
   .edit-link {
     display: block;
     margin: -1.5% 0 2% 0;
+    font-size: 90%;
   }
   
   .upvote-btn {
@@ -174,5 +190,6 @@
     display: flex;
     justify-content: center;
     padding: 1%;
-    font-size: 110%;
+    font-size: 80%;
+    font-weight: bold;
   }

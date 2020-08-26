@@ -15,9 +15,12 @@
     </h1>
     <nav>
       {{#if loggedIn}}
-      <a href="/dashboard">Dashboard</a>
+      <a class="home" href="/">Homepage</a>
+      <a class="dash" href="/dashboard">Dashboard</a>
       <button id="logout" class="btn-no-style">Logout</button>
       {{else}}
+      <a class="home" href="/">Homepage</a>
+      <a class="dash" href="/login">Dashboard</a>
       <a href="/login">Login</a>
       {{/if}}
   </nav>
@@ -26,7 +29,7 @@
       {{{ body }}}
     </main>
     <footer>
-      2020
+     Good News Only. &copy 2020
     </footer>
   </div>
   {{#if loggedIn}}
