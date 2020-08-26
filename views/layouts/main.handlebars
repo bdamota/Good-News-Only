@@ -4,21 +4,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Just Tech News</title>
+  <title>Good News Only.</title>
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 <body>
   <div class="wrapper">
    <header>
     <h1>
-      <a href="/">Just Tech News</a>
+      <a href="/">Good News Only.</a>
     </h1>
     <nav>
       {{#if loggedIn}}
-      <a href="/dashboard">dashboard</a>
-      <button id="logout" class="btn-no-style">logout</button>
+      <a href="/dashboard">Dashboard</a>
+      <button id="logout" class="btn-no-style">Logout</button>
       {{else}}
-      <a href="/login">login</a>
+      <a href="/login">Login</a>
       {{/if}}
   </nav>
   </header>
@@ -26,7 +26,7 @@
       {{{ body }}}
     </main>
     <footer>
-      Thanks for visiting!
+      2020
     </footer>
   </div>
   {{#if loggedIn}}
