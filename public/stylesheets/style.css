@@ -87,6 +87,11 @@
     color: #225ca3;
   }
 
+  .logline {
+    font-weight: bold;
+    font-size: 70%;
+  }
+
   .home {
     margin-right: 20%;
     margin-left: -20%;
@@ -104,6 +109,10 @@
 
   .login, .signup {
     margin-top: 2%;;
+  }
+
+  .maintitle {
+    font-size: 13pt;
   }
   
   .btn-no-style {
@@ -175,6 +184,10 @@
     font-size: 90%;
     margin-bottom: .5%;
     opacity: .6;
+  }
+
+  .meta {
+    font-size: 90%;
   }
   
   .new-post-form input {
